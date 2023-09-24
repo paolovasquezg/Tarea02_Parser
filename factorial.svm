@@ -1,7 +1,7 @@
 % Nombre, apellido
 % Nombre, apellido
 % Nombre, apellido
-push 4
+push 6
 dup
 L1: push 1
 sub

@@ -286,17 +286,18 @@ Instruction* Parser::parseInstruction() {
     }
 
     jmplabel = previous->lexema;
-
   }
   else
   {
     cout << "Error: no pudo encontrar match para " << current << endl;  
     exit(0);
   }
-
   if (!match(Token::EOL)) {
-    cout << "Esperaba fin de linea" << endl;
-    exit(0);
+
+    if (current->type != 5){
+      cout << "Esperaba fin de linea" << endl;
+      exit(0);
+    }
   }
   else{
     while (match(Token::EOL)){
