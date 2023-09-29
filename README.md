@@ -2,6 +2,7 @@
 
 ## Autores:
 * Paolo Vásquez (202110379)
+* Marcelo Zuloeta (202110397)
 
 ## Requerimientos 
 
